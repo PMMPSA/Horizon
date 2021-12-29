@@ -1,0 +1,7 @@
+---
+enableonjoin: true
+itemID: 347
+hideplayersmessage: All players have been hidden
+showplayersmessage: All players have been revelated
+disablechat: false
+...

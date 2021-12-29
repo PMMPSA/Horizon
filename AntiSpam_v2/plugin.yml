@@ -1,0 +1,13 @@
+main: xbeastmode\antispammer\AntiSpammer
+api: 2.0.0
+load: STARTUP
+name: AntiSpam
+description: "Plugin Giúp Chặn Người Chơi Chat Quá Nhanh"
+version: 2.0
+author: xBeastMode
+#Plugin Được Edit Và Việt Hóa Bởi Ghast Noob
+
+permissions:
+  spam.bypass:
+    default: op
+    description: "Plugin Giúp Chặn Người Chơi Chat Quá Nhanh"

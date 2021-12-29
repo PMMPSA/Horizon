@@ -1,0 +1,15 @@
+name: Sửa_Đồ
+main: GN\SuaDo
+version: 3.0
+author: Ghast Noob
+api: [2.0.0]
+
+commands:
+ suado:
+  permission: pocketmine.command.suado
+  description: "Sửa Đồ Đang Cầm Trên Tay"
+
+permissions:
+  pocketmine.command.suado:
+   default: op
+   description: Sửa Đồ Đang Cầm Trên Tay

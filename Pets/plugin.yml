@@ -1,0 +1,7 @@
+name: Pets
+author: NameLess
+description: Plugin Cho Phép Bạn Triệu Hồi Một Thú Cưng Khá Đáng Yêu
+version: 2.0
+main: pets\main
+api: [1.0.0, 2.0.0, 3.0.0-ALPHA1, 3.0.0-ALPHA2]
+#Edit Và Việt Hóa Bởi Ghast Noob

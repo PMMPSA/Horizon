@@ -1,0 +1,21 @@
+name: Healer
+main: Heal\Healer
+version: 1.0
+api:
+- 2.0.0
+- 3.0.0
+- 3.0.0-ALPHA6
+author: Ghast Noob
+
+commands:
+ heal:
+  description: Hồi Phục HP Cho Bản Thân
+  permission: heal.chobanthan
+
+permissions:
+  heal.chobanthan:
+   default: op
+   description: Lệnh Hồi Phục HP Cho Bản Thân
+  heal.chonguoikhac:
+   default: op
+   description: Lệnh Hồi Phục HP Cho Người Chơi Khác

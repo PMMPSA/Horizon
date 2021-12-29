@@ -1,0 +1,42 @@
+---
+#Thời gian tính bằng giây mà người chơi phải đợi để gửi lại tin nhắn
+time: 3
+
+#Cảnh báo tối đa mà người chơi sẽ nhận được cho đến khi họ bị chiệu hình phạt ở dòng 13
+max_warnings: 3
+
+#Cảnh báo người chơi mỗi khi họ spam
+warning_message: "&f[§aVui Lòng Nhắn Tin Chậm Lại. Cảnh Báo Lần:§f %warns%§f]"
+
+#Bạn Muốn Người Chơi Sau Khi Bị Nhắc 3 Lần Sẽ Bị Gì?
+#Đây Là Các Loại Hình Phạt Sau Khi Bị Nhắt Quá 3 Lần: message, mute, kick, ban, ban-ip
+block_type: mute
+
+#Thời gian mute người chơi (Tính Bằng Giây)
+mute_time: 180
+
+#Tin nhắn khi người chơi bị mute
+mute_message: "&f[§aBạn Đã Bị Cấm Nhắn Tin §f2 §aPhút Vì Spam§f]"
+
+#Tin nhắn khi người chơi vẫn bị tắt tiếng mà nhắn tin
+muted_message: "§f[§aBạn Vẫn Đang Bị Cấm Nhắn Tin Nên Không Nhắn Tin Được§f]"
+
+#Tin nhắn khi người chơi được nhắn tin
+un-muted_message: "§f[§aBạn Đã Được Nhắn Tin. Nếu Tiếp Tục Spam Bạn Sẽ Bị Cấm Nhắn Tin Lần Nữa§f]"
+
+#Lý do người chơi bị kick
+#%player% = Tên người chơi trong server
+kick_reason: "§f[§aBạn Đã Bị Kick Do Spam Trong Máy Chủ§f]"
+
+#Lý do người chơi bị ban
+#%player% = Tên người chơi trong server
+ban_reason: "&4You have been banned for spamming!"
+
+#Lý do người chơi bị ban-ip
+#%player% = Tên người chơi trong server
+ip_ban_reason: "§f[§aBạn Đã Bị Ban-IP Do Spam Trong Server"
+
+#Tin Nhắn Được Gửi Tới Khi Người Chơi Spam
+#%player% = Tên người chơi trong server
+message: "§f[§aNếu Bạn Là Một Người Có Ý Thức Vui Lòng Nhắn Tin Chậm Lại. Cám Ơn§f]"
+...

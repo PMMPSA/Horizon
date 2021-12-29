@@ -1,0 +1,11 @@
+name: OPS
+main: OPS\Main
+version: 1.0.2
+author: Không Biết Tên @@
+#Edit Và Việt Hóa Bởi Ghast
+api: [2.0.0]
+load: POSTWORLD
+description: Xem Danh Sách OP Server
+commands:
+ ops:
+  description: Xem Danh Sách OP Server

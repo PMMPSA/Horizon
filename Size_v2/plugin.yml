@@ -1,0 +1,13 @@
+name: Size
+version: 2.0
+author: emanuele0204
+api: ["2.0.0", "2.1.0", "3.0.0APLHA1", "3.0.0"]
+main: emanuele0204\Size\Size
+
+permissions:
+ playersize:
+  children:
+   size.command:
+    children:
+     size.command.size:
+      default: op

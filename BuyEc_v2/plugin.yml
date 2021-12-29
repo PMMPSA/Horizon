@@ -1,0 +1,9 @@
+name: BuyEc
+main: BuyEc\Main
+version: 2.0
+api: [2.0.0, 3.0.0]
+commands:
+  buyec:
+    description: Mua Phù Phép.
+  listec:
+    description: Xem Danh Sách ID Phù Phép.

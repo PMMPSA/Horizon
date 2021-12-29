@@ -1,0 +1,12 @@
+---
+128:65:119:World1:
+  x: 128
+  "y": 65
+  z: 119
+  level: World1
+  price: 1
+  item: 1
+  itemName: Stone
+  meta: 0
+  amount: 1
+...

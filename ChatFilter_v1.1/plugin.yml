@@ -1,0 +1,31 @@
+name: ChatFilter
+main: ChatFilter\ChatFilter
+version: "1.1"
+author: onebone
+#Edit Và Việt Hóa Bởi Ghast Noob
+api:
+- 1.1.0
+- 1.2.0
+- 1.2.1
+
+commands:
+ chatfilter:
+  permission: chatfilter.commands.chatfilter
+  description: Xem Danh Sách Những Từ Đã Bị Cấm
+  usage: /chatfilter
+ filter:
+  permission: chatfilter.commands.filter
+  description: ChatFilter manage command
+  usage: /filter <add | del | reload> [message]
+ 
+permissions:
+ chatfilter.commands.*:
+  default: op
+  description: Allows all commands of ChatFilter
+  children:
+   chatfilter.commands.chatfilter:
+    default: true
+    description: Allows command to show list of filtered list
+   chatfilter.commands.filter:
+    default: op
+    description: Allows command to manage commands of ChatFilter

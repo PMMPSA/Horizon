@@ -1,0 +1,15 @@
+name: CMDSnooper
+main: cmdsnooper\CmdSnooper
+version: 1.2.0
+api: [1.13.0, 2.0.0, 3.0.0, 3.0.0-ALPHA5]
+author: HotshotHD & CodeRed2019
+#Edit Và Việt Hóa Bởi Ghast Noob
+description: Xem Các Người Chơi Khác Sử Dụng Lệnh
+
+commands:
+  snoop:
+    description: Xem Các Người Chơi Khác Sử Dụng Lệnh
+permissions:
+   snoop.command:
+    default: op
+ 

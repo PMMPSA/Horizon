@@ -1,0 +1,10 @@
+---
+version: 1.0.2
+sword1: IRON_SWORD
+sword2: GOLD_SWORD
+sword_txt: |-
+  You must be holding an Iron Sword
+  or a Gold Sword
+timer: 5
+effect: 10
+...

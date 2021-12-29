@@ -1,0 +1,21 @@
+---
+entities:
+  chicken: 152
+  cow: 133
+  creeper: 152
+  enderman: 152
+  human: 152
+  ozelot: 152
+  pig: 152
+  pigzombie: 152
+  player: 152
+  sheep: 152
+  silverfish: 152
+  skeleton: 152
+  slime: 152
+  spider: 152
+  squid: 152
+  villager: 152
+  wolf: 152
+  zombie: 152
+...
